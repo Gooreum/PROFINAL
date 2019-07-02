@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3d6ae"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:background="@android:color/white"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <EditText
+        android:id="@+id/edit_id"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#e9ebd7"
+
+        android:hint="아이디"
+        android:padding="10dp"
+        android:textColor="#1a253b"
+        android:textColorHint="#1a253b" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:visibility="invisible" />
+
+
+    <EditText
+        android:id="@+id/edit_nickname"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#e9ebd7"
+
+        android:hint="닉네임"
+        android:padding="10dp"
+        android:textColor="#1a253b"
+        android:textColorHint="#1a253b" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#e9ebd7"
+
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="#1a253b"
+        android:textColorHint="#1a253b" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#e9ebd7"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/edit_passwordCheck"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#e9ebd7"
+
+        android:hint="비밀번호 확인"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="#1a253b"
+        android:textColorHint="#1a253b" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#2e81ad"
+        android:visibility="invisible" />
+
+    <Button
+
+        android:id="@+id/btn_confirm"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#e9ebd7"
+        android:text="확인"
+        android:textColor="#1a253b"
+
+        />
+</LinearLayout>

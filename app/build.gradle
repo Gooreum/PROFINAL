@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.example.goo.profinal"
+        minSdkVersion 21
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    //gson 추가항목
+    implementation 'com.google.code.gson:gson:2.8.2'
+
+    //뷰페이저 라이브러리 추가항목
+    compile 'com.github.JakeWharton:ViewPagerIndicator:2.4.1'
+
+    //circular progress libarary
+    compile 'cc.cloudist.acplibrary:library:1.2.1'
+
+    //스플래쉬 애니메이션
+    compile 'com.github.ViksaaSkool:AwesomeSplash:v1.0.0'
+}

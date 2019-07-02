@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.goo.profinal">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+    <activity android:name=".Activity.SplashActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name=".Activity.RealHome" />
+    <activity android:name=".Activity.Login" />
+    <activity android:name=".Activity.Member" />
+    <activity android:name=".Activity.Register" />
+    <activity android:name=".Activity.Home" />
+    <activity android:name=".Activity.Profile_Activity" />
+    <activity android:name=".Activity.Profile_Follower_Activity" />
+    <activity android:name=".Activity.Profile_Following_Activity" />
+    <activity android:name=".Activity.Add_Project_Content" />
+    <activity android:name=".Activity.Modify_Project_Content" />
+    <activity android:name=".Activity.Show_Member_Home_Activity" />
+    <activity android:name=".Activity.ShowProject" />
+    <activity
+        android:name=".Activity.Message"
+        android:windowSoftInputMode="stateHidden|adjustResize" />
+    <activity android:name=".Activity.Like" />
+    <activity android:name=".Activity.Request" />
+    <activity android:name=".Activity.Loading_progress" />
+    <activity android:name=".Activity.Chatting_list" />
+    <activity android:name=".Activity.MainActivity" />
+    <activity android:name=".Activity.Follower_Friend" />
+    <activity android:name=".Activity.Following_Friend" />
+    <activity android:name=".Activity.Profile_Motify" />
+    <activity
+        android:name=".Activity.Chatting"
+        android:windowSoftInputMode="stateHidden|adjustPan" />
+    <activity
+        android:name=".Activity.Chatting_2"
+        android:windowSoftInputMode="stateHidden|adjustPan" />
+    </application>
+</manifest>

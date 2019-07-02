@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#d3d6af"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="LETPRO"
+        android:textColor="#FF4081"
+        android:textSize="50dp" />
+
+    <EditText
+        android:id="@+id/edit_id"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="#e9ebd7"
+
+        android:hint="아이디"
+        android:padding="10dp"
+        android:textColor="#152239"
+        android:textColorHint="#152239" />
+
+    <EditText
+        android:id="@+id/edit_pw"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#e9ebd7"
+
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="#152239"
+        android:textColorHint="#152239" />
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#e9ebd7"
+        android:text="로그인"
+        android:textColor="#152239" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#e9ebd7"
+        android:text="회원가입"
+        android:textColor="#152239" />
+</LinearLayout>
