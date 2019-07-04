@@ -28,10 +28,12 @@
 <img src="https://github.com/Gooreum/PROFINAL/blob/master/readmeImages/%ED%8C%94%EB%A1%9C%EC%9B%8C%EC%97%90%EC%84%9C%ED%8C%94%EB%A1%9C%EC%9A%B0%EC%B6%94%EA%B0%80.gif" width="300" style="max-width:100%;" />
 
 
-**3.게시글 작성**
+**3.게시글 작성 및 수정**
  * 
 
 <img src="https://github.com/Gooreum/PROFINAL/blob/master/readmeImages/%EA%B2%8C%EC%8B%9C%EA%B8%80%EC%9E%91%EC%84%B1.gif" width="300" style="max-width:100%;" />
+
+<img src="https://github.com/Gooreum/PROFINAL/blob/master/readmeImages/%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EC%88%98%EC%A0%95.gif" width="300" style="max-width:100%;" />
 
 **4.좋아요**
  * 
