@@ -1,4 +1,4 @@
-# PROFINAL
+# ShareProject
 첫번째 안드로이드 작품입니다.
 
 ## 목차
